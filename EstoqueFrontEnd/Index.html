@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Bem vindo ao controle de Estoque</h1>
+    <section class="adicionar-produtos">
+    <form action="" method="post" id="adicionarproduto">
+      <p>Adicionar Produtos</p>
+      <label for="item">Produto:</label>
+      <input type="text" id="itemadicionar" name="item" placeholder="Nome do Produto">
+      
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidadeAdicionar" name="quantidade" placeholder="Quantidade">
+      
+      <button type="submit" class="botao" id="botaoAdicionar"">Adicionar</button>      
+    </section>
+
+    <section class="pesquisar-estoque">
+      <p>Pesquisar produto pelo nome</p>
+      <form action="">
+        <label for="item">Item:</label>
+        <input type="text" id="itemPesquisar" name="item" placeholder="Digite o item">
+
+        <button type="submit" class="botao" id="botaoProcurar">Procurar</button>
+    </section>
+
+    <section class="remover-estoque">
+      <form id="removerestoque">
+        <p>Remover produto do estoque</p>
+        <label for="Produto">ID:</label>
+        <input type="text" id="idProduto" name="item" placeholder="ID do Produto">
+        
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidadeRemover" name="quantidade" placeholder="Quantidade">
+        
+        <button type="submit" class="botao" id="botaoRemover">Retirar</button>      
+      </section>
+
+    <section class="visualizar-estoque">
+      <form action="">
+      
+      <button class="botao" id="visualizarEstoque">Visualizar o Estoque Completo</button>
+      </form>
+    </section>
+
+    <button class="botao" id="limparTabela">Limpar Tabela</button>
+
+    <table class="tabela-produto">
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Quantidade</th>
+          </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table>
+
+  </main>
+  
+  <script src="./script.js"></script>
+</body>
+</html>

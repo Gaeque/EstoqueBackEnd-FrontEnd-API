@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #cecdcd93;
+}
+
+.container {
+display: grid;
+place-items: center;
+}
+
+
+.adicionar-produtos {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.adicionar-produtos p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.pesquisar-estoque {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.pesquisar-estoque p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.remover-estoque {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.remover-estoque p{
+    font-weight: bold;
+  text-align: center;
+}
+
+.visualizar-estoque {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.tabela-produto {
+  width: 640px;
+  border-collapse: collapse;
+  overflow: scroll;
+}
+
+
+
+.tabela-produto th, .tabela-produto td {
+  padding: 4px;
+  text-align: left;
+}
+
+.tabela-produto th {
+  background-color: #999999;
+}
+
+.botao {
+  padding: 4px 20px;
+  margin-left: 1rem;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: rgb(173, 173, 173);
+}
+
+#limparTabela {
+  margin-bottom: 10px;
+}
